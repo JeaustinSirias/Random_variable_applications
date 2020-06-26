@@ -20,12 +20,12 @@ Una vez clonado puede encontrar el codigo fuente en el archivo [TAREA_3.py]. Rec
 	import scipy.stats as stats
 	import math
 
-###Un breve resumen:
+### Un breve resumen:
 
 Este repositorio corresponde a la Tarea 3 del curso Modelos Probabilisticos de Senales y Sistemas de la Escuela de Ingenieria Electrica en la Universidad de Costa Rica para el I-2020. Se presenta una solucion programada para aplicar los conceptos de funcion de densidad marginal, independencia, funcion de densidad conjunta, correlacion, covarianza y coeficiente de Pearson, a partir de un frasco de datos con registros de frecuencia relativa.
 
 
-###INCISO 1: MODELOS PROBABILISTICOS HALLADOS PARA LAS FUNCIONES DE DENSIDAD MARGINALES EN X, Y
+### INCISO 1: MODELOS PROBABILISTICOS HALLADOS PARA LAS FUNCIONES DE DENSIDAD MARGINALES EN X, Y
 
 Se han definido los modelos a partir de hallar los parametros 'mu' y 'sigma' de la distribucion normal/gausseana a partir de implementar una funcion en Python3 como sigue:
 
@@ -44,7 +44,7 @@ Las curvas de los datos crudos para X y Y puede apreciarlas en el archivo en .pn
 Los resultados obtenidos son un par de vectores de la forma [mu, sigma] para la densidad marginal en X y en Y, respectivamente: [], []
 
 
-###INCISO 2: ASUMIENDO INDEPENDENCIA EN X,Y HALLAR LA FUNCION DE DENSIDAD CONJUNTA
+### INCISO 2: ASUMIENDO INDEPENDENCIA EN X,Y HALLAR LA FUNCION DE DENSIDAD CONJUNTA
 
 A partir de los [conceptos estudiados](https://es.wikipedia.org/wiki/Distribuci%C3%B3n_conjunta) se determina que la funcion de densidad conjunta es el producto de los modelos gausseanos marginales encontrados anteriormente:'
 
@@ -53,9 +53,9 @@ A partir de los [conceptos estudiados](https://es.wikipedia.org/wiki/Distribuci%
 		
 Este desarrollo puede observase de forma [grafica](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/DenConjuntaXY.png) en el repositorio.
 
-###INCISO 3: HALLANDO LA CORRELACION, LA COVARIANZA Y EL COEFICIENTE DE PEARSON
+### INCISO 3: HALLANDO LA CORRELACION, LA COVARIANZA Y EL COEFICIENTE DE PEARSON
 
-#CORRELACION
+# CORRELACION
 
 Para este apartado se calcula la [correlacion](https://es.wikipedia.org/wiki/Correlaci%C3%B3n) a partir del frasco de datos 'xyp.csv' dado a que tiene una organizacion [x y p], de este modo se busca realizar el producto de cada fila y sumar los elementos resultantes; para ello se hizo el siguiente procedimiento progamado:
 
@@ -93,14 +93,14 @@ Para hallar la [covarianza](https://es.wikipedia.org/wiki/Covarianza#:~:text=En%
 
 Al final el valor de la covarianza es 0.066691
 
-#COEFICIENTE DE PEARSON
+# COEFICIENTE DE PEARSON
 
 El [Coeficiente de Pearson](https://es.wikipedia.org/wiki/Coeficiente_de_correlaci%C3%B3n_de_Pearson) se puede obtener a partir de la covarianza y las desviaciones estandar Xsigma y Ysigma halladas en los modelos marginales Gausseanos del INCISO 1 analiticamente como PEARSON = COVARIAZA/des_estandarX * desv_estandarY. De forma programada entonces:
 
 	pearson = covarianza/(3.29944286*6.02639775)
 	print('El coeficiente de Pearson es:' +  str(pearson)) #IMPRIMA EL COEFICIENTE DE PEARSON
 
-###INCISO 4
+### INCISO 4: GRAFICAS
 
 Se despliegan las graficas de interes para los datos crudos, los modelos gausseanos y la densidad marginal:
 
