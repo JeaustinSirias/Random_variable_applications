@@ -55,7 +55,7 @@ Este desarrollo puede observase de forma [grafica](https://github.com/JeaustinSi
 
 ### INCISO 3: HALLANDO LA CORRELACION, LA COVARIANZA Y EL COEFICIENTE DE PEARSON
 
-# CORRELACION
+#### CORRELACION
 
 Para este apartado se calcula la [correlacion](https://es.wikipedia.org/wiki/Correlaci%C3%B3n) a partir del frasco de datos 'xyp.csv' dado a que tiene una organizacion [x y p], de este modo se busca realizar el producto de cada fila y sumar los elementos resultantes; para ello se hizo el siguiente procedimiento progamado:
 
@@ -75,7 +75,7 @@ Para este apartado se calcula la [correlacion](https://es.wikipedia.org/wiki/Cor
 
 Al final la correlacion arroja un valor de 149.5428
 
-#COVARIANZA
+#### COVARIANZA
 
 Para hallar la [covarianza](https://es.wikipedia.org/wiki/Covarianza#:~:text=En%20probabilidad%20y%20estad%C3%ADstica%2C%20la,aleatorias%20respecto%20a%20sus%20medias.) se usa la formula para el caso discreto en sumatoria [SUM][SUM](x - Xmu)(y - Ymu)f(x,y) = covarianza; Xmu y Ymu son las medias respectivas halladas en los modelos marginales gausseanos. En Python3 a partir de los datos 'xyp.csv' se programa bajo las siguientes lineas:
 
@@ -93,7 +93,7 @@ Para hallar la [covarianza](https://es.wikipedia.org/wiki/Covarianza#:~:text=En%
 
 Al final el valor de la covarianza es 0.066691
 
-# COEFICIENTE DE PEARSON
+#### COEFICIENTE DE PEARSON
 
 El [Coeficiente de Pearson](https://es.wikipedia.org/wiki/Coeficiente_de_correlaci%C3%B3n_de_Pearson) se puede obtener a partir de la covarianza y las desviaciones estandar Xsigma y Ysigma halladas en los modelos marginales Gausseanos del INCISO 1 analiticamente como PEARSON = COVARIAZA/des_estandarX * desv_estandarY. De forma programada entonces:
 
@@ -104,9 +104,9 @@ El [Coeficiente de Pearson](https://es.wikipedia.org/wiki/Coeficiente_de_correla
 
 Se despliegan las graficas de interes para los datos crudos, los modelos gausseanos y la densidad marginal:
 
-[Graficas de densidad marginal a partir de los datos crudos](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/MarginalesXY.png)
-[Modelo gausseano a partir de la densidad marginal en X](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/GausseanaX.png)
-[Modelo gausseano a partir de la densidad marginal en Y](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/GausseanaY.png)
-[Modelo de densidad conjunta](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/DenConjuntaXY.png)
+-[Graficas de densidad marginal a partir de los datos crudos](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/MarginalesXY.png)
+-[Modelo gausseano a partir de la densidad marginal en X](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/GausseanaX.png)
+-[Modelo gausseano a partir de la densidad marginal en Y](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/GausseanaY.png)
+-[Modelo de densidad conjunta](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/DenConjuntaXY.png)
 
 
