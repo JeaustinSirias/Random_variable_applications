@@ -73,7 +73,7 @@ Para este apartado se calcula la [correlacion](https://es.wikipedia.org/wiki/Cor
 
 	correlacion = sum(product)	#la correlacion en la suma de todos los productos que ahora son elementos en 'product'
 
-Al final la correlacion arroja un valor de 149.5428
+Al final la correlacion arroja un valor de 149.5428 La interpretacion de este valor depende del valor del coeficiente de relacion de Pearson que se expone a continuacion.
 
 #### COVARIANZA
 
@@ -91,7 +91,7 @@ Para hallar la [covarianza](https://es.wikipedia.org/wiki/Covarianza#:~:text=En%
   		covarianza_prod.append(np.prod(Plst[i]))
 	covarianza = sum(covarianza_prod) #hacemos la sumatoria de los elementos 
 
-Al final el valor de la covarianza es 0.066691
+Al final el valor de la covarianza es 0.066691. La covarianza para este caso es mayor que cero, por lo que se interpreta como una dependencia positiva: valores grandes de la variable aleatoria de X se asocian tambien a valores grandes de la VA en Y; es decir, una es proporcional a la otra.
 
 #### COEFICIENTE DE PEARSON
 
@@ -100,7 +100,7 @@ El [Coeficiente de Pearson](https://es.wikipedia.org/wiki/Coeficiente_de_correla
 	pearson = covarianza/(3.29944286*6.02639775)
 	print('El coeficiente de Pearson es:' +  str(pearson)) #IMPRIMA EL COEFICIENTE DE PEARSON
 
-Al final el coeficiente de Pearson es 0.0033540
+Al final el coeficiente de Pearson es 0.0033540. Como dicho parametro se halla entre 0 y 1, entonces segun la [interpretacion](https://support.minitab.com/es-mx/minitab/18/help-and-how-to/statistics/basic-statistics/how-to/correlation/interpret-the-results/key-results/) significa que hay correlacion directa o positiva, pero moderada.
 ### INCISO 4: GRAFICAS
 
 Se despliegan las graficas de interes para los datos crudos, los modelos gausseanos y la densidad marginal:
