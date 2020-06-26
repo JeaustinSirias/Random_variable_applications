@@ -41,7 +41,7 @@ Las curvas de los datos crudos para X y Y puede apreciarlas en el archivo en .pn
 	param1, _ = curve_fit(gaussian, X, Xsum) 
 	param2, _ = curve_fit(gaussian, Y, Ysum)
 
-Los resultados obtenidos son un par de vectores de la forma [mu, sigma] para la densidad marginal en X y en Y, respectivamente: [], []
+Los resultados obtenidos son un par de vectores de la forma [mu, sigma] para la densidad marginal en X y en Y, respectivamente: [9.904843, 3.299443], [15.079460, 6.029377]
 
 
 ### INCISO 2: ASUMIENDO INDEPENDENCIA EN X,Y HALLAR LA FUNCION DE DENSIDAD CONJUNTA
@@ -100,6 +100,7 @@ El [Coeficiente de Pearson](https://es.wikipedia.org/wiki/Coeficiente_de_correla
 	pearson = covarianza/(3.29944286*6.02639775)
 	print('El coeficiente de Pearson es:' +  str(pearson)) #IMPRIMA EL COEFICIENTE DE PEARSON
 
+Al final el coeficiente de Pearson es 0.0033540
 ### INCISO 4: GRAFICAS
 
 Se despliegan las graficas de interes para los datos crudos, los modelos gausseanos y la densidad marginal:
