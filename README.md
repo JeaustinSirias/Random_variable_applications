@@ -1,17 +1,17 @@
 UNA SOLUCION A LA TAREA 3 POR JEAUSTIN SIRIAS
 =============================================
 
-Para clonar este repositorio en su computadora usando una distribucion GNU/LINUX [bash] copie y pegue la siguiente linea en su terminal:
+Para clonar este repositorio en su computadora usando una distribucion GNU/LINUX [bash](https://es.wikipedia.org/wiki/Bash) copie y pegue la siguiente linea en su terminal:
 
 
 	git clone https://github.com/JeaustinSirias/Tarea3_B66861.git
 
-Si no cuenta con el paquete [git] en su ordenador, entonces digite las siguientes lineas en la terminal:
+Si no cuenta con el paquete [git](https://git-scm.com/) en su ordenador, entonces digite las siguientes lineas en la terminal:
 
 	sudo apt-get update
 	sudo apt-get install git
 
-Una vez clonado puede encontrar el codigo fuente en el archivo [TAREA_3.py]. Recuerde correrlo si cuenta con las siguientes librerias instaladas en su interprete de Python3:
+Una vez clonado puede encontrar el codigo fuente en el archivo [TAREA_3.py](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/TAREA_3.py). Recuerde correrlo si cuenta con las siguientes librerias instaladas en su interprete de Python3:
 
 	import csv
 	import matplotlib.pyplot as plt
@@ -104,9 +104,9 @@ El [Coeficiente de Pearson](https://es.wikipedia.org/wiki/Coeficiente_de_correla
 
 Se despliegan las graficas de interes para los datos crudos, los modelos gausseanos y la densidad marginal:
 
--[Graficas de densidad marginal a partir de los datos crudos](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/MarginalesXY.png)
--[Modelo gausseano a partir de la densidad marginal en X](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/GausseanaX.png)
--[Modelo gausseano a partir de la densidad marginal en Y](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/GausseanaY.png)
--[Modelo de densidad conjunta](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/DenConjuntaXY.png)
+- [Graficas de densidad marginal a partir de los datos crudos](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/MarginalesXY.png)
+- [Modelo gausseano a partir de la densidad marginal en X](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/GausseanaX.png)
+- [Modelo gausseano a partir de la densidad marginal en Y](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/GausseanaY.png)
+- [Modelo de densidad conjunta](https://github.com/JeaustinSirias/Tarea3_B66861/blob/master/DenConjuntaXY.png)
 
 
